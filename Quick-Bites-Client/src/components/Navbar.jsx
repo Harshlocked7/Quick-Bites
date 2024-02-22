@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='mx-3'>
         <h1 className='text-3xl font-bold text-gray-900'>
   <span className='text-3xl'>Q</span>uick<span className='text-3xl'>B</span>ites Foods</h1>
-            <h3 className='text-2xl font-bold text-gray-700' >
+            <h3 className='text-2xl font-bold text-green-900' >
                 {new Date().toUTCString().slice(0, 16)}
             </h3>
            

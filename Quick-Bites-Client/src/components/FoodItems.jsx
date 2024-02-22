@@ -1,13 +1,10 @@
 import React from 'react'
 import FoodCard from './FoodCard';
-// import FoodData from './data/FoodData.js';
-// import FoodData from '../data/FoodData'
-// import FoodData from '../data/foodData.js';
 import food1 from '../food.js'
 
 const FoodItems = () => {
   return (
-    <>
+    <div className='flex flex-wrap gap-10 justify-center lg:justify-start mx-6 my-10'>
         {food1.map((food) => { 
             return (
             <FoodCard 
@@ -18,7 +15,7 @@ const FoodItems = () => {
         );
         })}
         
-    </>
+    </div>
   );
 }
 
