@@ -136,7 +136,7 @@ const food1 = [
     },
     {
       id: 16,
-      img: "https://w7.pngwing.com/pngs/47/171/png-transparent-chinese-noodles-hot-and-sour-soup-risotto-lomi-lamian-slippery-mushrooms-risotto-dusi-soup-food-recipe-thumbnail.png",
+      img: "https://www.mirchitales.com/wp-content/uploads/2020/12/How-to-make-a-cheeseboard-for-south-asians-2.jpg",
       name: "Cheese and Crackers Platter",
       price: 120,
       desc: "Enjoy a variety of artisan cheeses, paired with an assortment of crispy crackers and complemented by fresh fruits and nuts. A delightful snack option for sharing or indulging in on your own.",
