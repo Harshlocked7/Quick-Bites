@@ -6,7 +6,7 @@ import { addToCart } from '../redux/slices/CartSlice';
 
 
 
-const FoodCard = ({id, name, price, desc, img, rating}) => {
+const FoodCard = ({id, name, price, desc, img, rating, handleToast}) => {
   const dispatch = useDispatch();
   return (
     <div className="font-bold w-[250px] min-h-[240px] max-h-[240px] p-3 flex flex-col gap-1 rounded-lg mt-10">
@@ -22,7 +22,11 @@ const FoodCard = ({id, name, price, desc, img, rating}) => {
          <span className='flex justify-center item-center p-1'><FaStar className='mr-1 mt-1'/>{rating}</span>
          <button  onClick={() => {
           dispatch(addToCart({id, name, price, img, rating, qty:1}))
-         }} className='p-1 text-white bg-green-500 hover:bg-green-500 rounded-lg text-sm'>Add to cart</button>
+        handleToast(name);
+        }}
+          className='p-1 text-white bg-green-500 hover:bg-green-500 rounded-lg text-sm'>
+          Add to cart
+          </button>
          </div>
       </div>
     </div>
