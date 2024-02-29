@@ -30,3 +30,4 @@ export const {addToCart, removeFromCart, incrementQty, decrementQty} = CartSlice
 export default CartSlice.reducer;
 
 //1
+//2
